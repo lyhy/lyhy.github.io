@@ -1,7 +1,7 @@
 import React from 'react'
 import { Switch, Route, NavLink } from 'react-router-dom'
 import Home from '../Home/Home'
-// import Repo from '../Repo/Repo'
+import Repo from '../Repo/Repo'
 
 export default function Nav() {
     return (
@@ -19,7 +19,7 @@ export default function Nav() {
             </ul>
             <Switch>
                 <Route exact path="/" component={Home}/>
-                <Route path="/page1" component={Home}/>
+                <Route path="/page1" component={Repo}/>
                 <Route path="/page2" component={Home}/>
             </Switch>
 
