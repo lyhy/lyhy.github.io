@@ -1,3 +1,11 @@
+## add homepage in package.json to point to your git homepage 
+repo/public
+"homepage": "https://lyhy.github.io/public",
+
+`npm run build`
+remove everything under public folder
+copy over everything from build folder to public folder
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +74,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
