@@ -1,16 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Helmet} from "react-helmet";
+import Navigation from './start/components/Navigation'
 
 function App() {
   return (
     <div>
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+    <Helmet>
+          <title>Reactjs start learning page</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width"
+          />
+    </Helmet>
+      <Navigation></Navigation>
     </div>
   );
 }
